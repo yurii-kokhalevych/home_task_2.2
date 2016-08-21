@@ -25,86 +25,88 @@
                 <li>Please select your age group: </li>
                 <br>
                     <label for="less 18"> less 18</label>
-                    <input type="radio" name="radio" id="less 18"/>
+                    <input type="radio" name="age" id="less 18"/>
                     <label for="18-23"> 18-23</label>
-                    <input type="radio" name="radio" id="18-23"/>
+                    <input type="radio" name="age" id="18-23"/>
                     <label for="24-30"> 24-30</label>
-                    <input type="radio" name="radio" id="24-30"/>
+                    <input type="radio" name="age" id="24-30"/>
                     <label for="31-40"> 31-40</label>
-                    <input type="radio" name="radio" id="31-40"/>
+                    <input type="radio" name="age" id="31-40"/>
                     <label for="more 40"> more 40</label>
-                    <input type="radio" name="radio" id="more 40"/>
+                    <input type="radio" name="age" id="more 40"/>
                 <br>
                 <br>
                 <li>Do you play sports?</li>
                     <br>
                     <label for="Yes">Yes</label>
-                    <input type="radio" name="yes" id="Yes"/>
+                    <input type="radio" name="play sports" id="Yes"/>
                     <label for="No">No</label>
-                    <input type="radio" name="yes" id="No"/>
+                    <input type="radio" name="play sports" id="No"/>
                 <br>
                 <br>
                 <li>How many times a week do you play sports:</li>
                     <br> 
-                    <input type="number" name="nunber" min="0" max="7" value="0" pattern={0-7}/>
+                    <input type="number" name="How many times" min="0" max="7" value="0" pattern=[0-9]{0,}/>
                 <br>
                 <br>
                 <br>
                 <li>Which sport you love: </li>
                     <br>
                     <label for="run">run</label>
-                    <input type="checkbox" name="checkbox" id="run"/>
+                    <input type="checkbox" name="run" id="run"/>
                     <label for="swiming">swiming</label>
-                    <input type="checkbox" name="checkbox" id="swiming"/>
+                    <input type="checkbox" name="swiming" id="swiming"/>
                     <label for="weightlifting">weightlifting</label>
-                    <input type="checkbox" name="checkbox" id="weightlifting"/>
+                    <input type="checkbox" name="weightlifting" id="weightlifting"/>
                     <label for="football">football</label>
-                    <input type="checkbox" name="checkbox" id="football"/>
+                    <input type="checkbox" name="football" id="football"/>
                     <label for="tenis">tenis</label>
-                    <input type="checkbox" name="checkbox" id="tenis"/>
+                    <input type="checkbox" name="tenis" id="tenis"/>
                     <label for="fight">fight</label>
-                    <input type="checkbox" name="checkbox" id="fight"/>
+                    <input type="checkbox" name="fight" id="fight"/>
+                    <label for="basketball">basketball</label>
+                    <input type="checkbox" name="basketball" id="basketball"/>
                     <br>
                     <label for="your">your variant</label>
-                    <input type="text" name="checkbox" id="your" size="60"/>
+                    <input type="text" name="my variant" id="your" size="60"/>
                 <br>
                 <br>
-                <li>Have you ever had an injury through sport?</li>
+                <li>Have you ever injury through sport?</li>
                 <br>    
                     <label for="Yes">Yes</label>
-                    <input type="radio" name="yes" id="Yes"/>
+                    <input type="radio" name="injury" id="Yes"/>
                     <label for="No">No</label>
-                    <input type="radio" name="yes" id="No"/>
+                    <input type="radio" name="injury" id="No"/>
                     <br>
                     <label for="other">other</label>
-                    <input type="text" name="checkbox" id="other" size="60"/>
+                    <input type="text" name="my variant 1" id="other" size="60"/>
                 <br>
                 <br>
                 <li>You do sports professionally?</li>
                 <br>
                     <label for="Yes">Yes</label>
-                    <input type="radio" name="yes" id="Yes"/>
+                    <input type="radio" name="professional" id="Yes"/>
                     <label for="No">No</label>
-                    <input type="radio" name="yes" id="No"/>
+                    <input type="radio" name="professional" id="No"/>
                     <br>
                     <label for="other">other</label>
-                    <input type="text" name="checkbox" id="other" size="60"/>
+                    <input type="text" name="my variant 2" id="other" size="60"/>
                 <br>
                 <br>
                 <li>Do you recommend to play sports</li>
                     <label for="Yes">Yes</label>
-                    <input type="radio" name="yes" id="Yes"/>
+                    <input type="radio" name="recommend" id="Yes"/>
                     <label for="No">No</label>
-                    <input type="radio" name="yes" id="No"/>
+                    <input type="radio" name="recommend" id="No"/>
                     <br>
                     <label for="other">other</label>
-                    <input type="text" name="checkbox" id="other" size="60"/>
+                    <input type="text" name="my variant 3" id="other" size="60"/>
                 <br>
                 <br>
                 <li>Please rate survey:</li>
                 <br>
                 <label for="">0</label>
-                <input type="range" name="range" value="0" min="0" max="5" pattern={0-5}/>
+                <input type="range" name="rate" value="0" min="0" max="5" pattern=[0-9]{0,}/>
                 <label for="">5</label>
            </ol>
             <input type="submit" value="OK"/>
